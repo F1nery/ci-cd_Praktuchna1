@@ -14,3 +14,14 @@ def sort_txt_data_by_population(data):
 def print_data(data):
     for row in data:
         print(row)
+
+data = read_txt_data('population.txt')
+
+
+sorted_by_area = sort_txt_data_by_area(data)
+print('Країни,відсортовані за площею у порядку зростання:')
+print_data(sorted_by_area)
+
+sorted_by_population = sort_txt_data_by_population(data)
+print('Країни,відсортовані за населенням у порядку зростання:')
+print_data(sorted_by_population)
