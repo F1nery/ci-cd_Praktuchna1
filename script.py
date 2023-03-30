@@ -10,3 +10,7 @@ def sort_txt_data_by_area(data):
 def sort_txt_data_by_population(data):
     sorted_data = sorted(data, key=lambda x: int(x[2]))
     return sorted_data
+
+def print_data(data):
+    for row in data:
+        print(row)
