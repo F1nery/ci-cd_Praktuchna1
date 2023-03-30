@@ -19,7 +19,7 @@ data = read_txt_data('population.txt')
 
 
 sorted_by_area = sort_txt_data_by_area(data)
-print('Країни,відсортовані за площею у порядку зростання:')
+print('Країни,відсортовані за площею у порядку зростання(km2):')
 print_data(sorted_by_area)
 
 sorted_by_population = sort_txt_data_by_population(data)
